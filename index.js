@@ -9,7 +9,7 @@ module.exports = function(url) {
                 if (valid) {
                     resolve();
                 } else {
-                    reject("linke is not downloadable");
+                    reject("link is not downloadable");
                 }
             }
         });
